@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gwtask.gwtask.MainActivity">
+    <item
+        android:id="@+id/settings_default_icon"
+        android:orderInCategory="100"
+        android:title="@string/settings_default_icon_string"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings_cool_icon"
+        android:orderInCategory="100"
+        android:title="@string/settings_cool_icon_string"
+        app:showAsAction="never"/>
+</menu>

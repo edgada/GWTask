@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:id="@+id/vienasZodis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@id/sonoLinija"
+            android:layout_toStartOf="@+id/sonoLinija"
+            android:maxLines="1"
+            android:singleLine="false"
+            android:textColor="@color/categoryLabelColor"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="30sp"
+            app:autoSizeMinTextSize="7sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@id/sonoLinija"
+            android:layout_toStartOf="@+id/sonoLinija"
+            android:gravity="end"
+            android:maxLines="1"
+            android:singleLine="false"
+            android:textColor="@color/categoryLabelColor"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="30sp"
+            app:autoSizeMinTextSize="7sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/zodis"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/sonoLinija"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/sonoLinija"
+            android:layout_toStartOf="@+id/sonoLinija"
+            android:gravity="end"
+            android:textColor="@color/mainSpalva"
+            app:autoSizeMaxTextSize="35sp"
+            app:autoSizeMinTextSize="10sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/sonoLinija"
+            android:layout_width="8dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/sonoLinijosSpalva" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+

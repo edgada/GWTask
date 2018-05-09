@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="mainSpalva">#3a414a</color>
+    <color name="historyBackgroundColor">#ececec</color>
+    <color name="sonoLinijosSpalva">#009ee3</color>
+    <color name="categoryLabelColor">#abacae</color>
+    <color name="juodasTekstas">#000000</color>
+</resources>
